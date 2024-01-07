@@ -7,7 +7,7 @@ This repository contains all the code and data necessary to reproduce the result
 To run the code in this repository, you'll need the following:
 
 - Python 3.8 and the packages: numpy, pandas, jupyter, sentence-transformers
-- Additionally, you'll need to install Pyserini. Follow the installation instructions provided in the Github repository: https://github.com/castorini/pyserini/blob/master/docs/installation.md
+- Additionally, you'll need to install Pyserini. Follow the installation instructions provided in the GitHub repository: https://github.com/castorini/pyserini/blob/master/docs/installation.md
 
 ## Data
 
@@ -32,7 +32,7 @@ The file `SRB > RepSRB > resources > wordlist_genderspecific.txt` contains the l
 
 ### SRB Experiments
 
-The scripts in the folder `SRB` can be used to reproduce the results from our main expirements. Run `main.py` to retrieve the results from the MSMARCO collection for the queries and evaluate them using the ComSRB metrics. Further the file prepares the data necessary for calculating the RepSRB metrics.
+The scripts in the folder `SRB` can be used to reproduce the results from our main experiments. Run `main.py` to retrieve the results from the MSMARCO collection for the queries and evaluate them using the ComSRB metrics. Further the file prepares the data necessary for calculating the RepSRB metrics.
 
 The subfolder `RepSRB` contains the scripts and resources necessary to evaluate the search results using the RepSRB metrics. The code in the notebook `GenderBiasIR.ipynb` is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR) and adapted to produce results that are comparable with those of the ComSRB method.
 
