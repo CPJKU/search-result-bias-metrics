@@ -13,7 +13,7 @@ To run the code in this repository, you'll need the following:
 ## Data
 
 1. **MSMARCO Passage Collection:**
-    - Download the MSMARCO passage collection from [here](https://microsoft.github.io/msmarco/).
+    - Download the MSMARCO passage collection from https://microsoft.github.io/msmarco/.
     - In the section `Passage Retrieval`, find the file named `Collection(10/26/2018)`
     - The file is approximately 3GB in size.
     - Save the downloaded .tsv file in the folder `SRB > MSMARCO`.
@@ -33,8 +33,15 @@ The file `wordlist_genderspecific.txt` contains the list of 32 gender-representa
 
 ## Code
 
-The code in the notebook 'GenderBiasIR.ipynb' is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR) and adapted for the experiments of this study.
+### SRB Experiments
 
+The scripts in the folder `SRB` can be used to reproduce the results from our main expirements. Run `main.py` retrieve the results from the MSMARCO collection for the queries and evaluate them using the ComSRB metrics. Further the file prepares the data necessary for calculating the RepSRB metrics.
+
+The subfolder `RepSRB` contains the scripts and ressources necessary to evaluate the search results using the RepSRB method. The code in the notebook `GenderBiasIR.ipynb` is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR) and adapted for the experiments of this study.
+
+### Search Engine Experiments
+
+The code for our small-scale experiment on real-world search-engines is contained in the folder `SRB_SE`.
 
 ### References
 
