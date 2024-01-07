@@ -21,9 +21,9 @@ All other necessary data and ressources are provided in this repository and desc
 2. **Query Set:**
 The set of queries is based on data from the User Study by Kopeinik et al. [1] (https://github.com/CPJKU/user-interaction-gender-bias-IR). Gendered variations of the queries were addded by us.
 The queries are contained in the file `SRB > data > retrieval_queries.jsonl`. There are 280 bias-sensitive queries (35 from each of eight topics). Each query exists in three variations:
-* `N (non-gendered)` - Non-gendered (original) query
-* `P (prototypical)` - Prototypical query variation (required for the ComSRB metrics)
-* `CP (counter-prototypical)` - Counter-prototypical query variation (required for the ComSRB metrics)
+    * `N (non-gendered)` - Non-gendered (original) query
+    * `P (prototypical)` - Prototypical query variation (required for the ComSRB metrics)
+    * `CP (counter-prototypical)` - Counter-prototypical query variation (required for the ComSRB metrics)
 
 3. **Gender-specific words:**
 The file `wordlist_genderspecific.txt` contains the list of 32 gender-representative words per gender used in the RepSRB metrics. It is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR).
