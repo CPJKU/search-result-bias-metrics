@@ -20,7 +20,7 @@ All other necessary data and resources are provided in this repository and descr
 
 2. **Query Set:**
 The set of queries is based on data from the User Study by Kopeinik et al. [1] (https://github.com/CPJKU/user-interaction-gender-bias-IR). Gendered variations of the queries were addded by us.
-The queries are contained in the file `SRB > data > retrieval_queries.jsonl`. There are 280 bias-sensitive queries (35 from each of eight topics). Each query exists in three variations:
+The queries are contained in the file `SRB > data > retrieval_queries.jsonl`. There are 280 bias-sensitive queries (35 from each of eight topics). Each query exists in three variations, ordered as following:
     * `N (non-gendered)` - Non-gendered (original) query
     * `P (prototypical)` - Prototypical query variation (required for the ComSRB metrics)
     * `CP (counter-prototypical)` - Counter-prototypical query variation (required for the ComSRB metrics)
