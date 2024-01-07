@@ -16,7 +16,7 @@ To run the code in this repository, you'll need the following:
     - In the section `Passage Retrieval`, find the file named `Collection(10/26/2018)` and download it (it is approximately 3GB in size).
     - Save the downloaded .tsv file in the folder `SRB > MSMARCO`.
 
-All other necessary data and ressources are provided in this repository and described below:
+All other necessary data and resources are provided in this repository and described below:
 
 2. **Query Set:**
 The set of queries is based on data from the User Study by Kopeinik et al. [1] (https://github.com/CPJKU/user-interaction-gender-bias-IR). Gendered variations of the queries were addded by us.
@@ -26,7 +26,7 @@ The queries are contained in the file `SRB > data > retrieval_queries.jsonl`. Th
     * `CP (counter-prototypical)` - Counter-prototypical query variation (required for the ComSRB metrics)
 
 3. **Gender-specific words:**
-The file `wordlist_genderspecific.txt` contains the list of 32 gender-representative words per gender used in the RepSRB metrics. It is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR).
+The file `SRB > RepSRB > resources > wordlist_genderspecific.txt` contains the list of 32 gender-representative words per gender used in the RepSRB metrics. It is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR).
 
 ## Code
 
@@ -34,7 +34,7 @@ The file `wordlist_genderspecific.txt` contains the list of 32 gender-representa
 
 The scripts in the folder `SRB` can be used to reproduce the results from our main expirements. Run `main.py` to retrieve the results from the MSMARCO collection for the queries and evaluate them using the ComSRB metrics. Further the file prepares the data necessary for calculating the RepSRB metrics.
 
-The subfolder `RepSRB` contains the scripts and ressources necessary to evaluate the search results using the RepSRB method. The code in the notebook `GenderBiasIR.ipynb` is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR) and adapted for the experiments of this study.
+The subfolder `RepSRB` contains the scripts and resources necessary to evaluate the search results using the RepSRB method. The code in the notebook `GenderBiasIR.ipynb` is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR) and adapted for the experiments of this study.
 
 ### Search Engine Experiments
 
