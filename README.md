@@ -12,12 +12,11 @@ To run the code in this repository, you'll need the following:
 ## Data
 
 1. **MSMARCO Passage Collection:**
-    - Download the MSMARCO passage collection from https://microsoft.github.io/msmarco/.
-    - In the section `Passage Retrieval`, find the file named `Collection(10/26/2018)`
-    - The file is approximately 3GB in size.
+    - Get the MSMARCO passage collection from https://microsoft.github.io/msmarco/.
+    - In the section `Passage Retrieval`, find the file named `Collection(10/26/2018)` (it is approximately 3GB in size) and download it.
     - Save the downloaded .tsv file in the folder `SRB > MSMARCO`.
 
-All other necessary data and ressources are provided in this repository and described below.
+All other necessary data and ressources are provided in this repository and described below:
 
 2. **Query Set:**
 The set of queries is based on data from the User Study by Kopeinik et al. [1] (https://github.com/CPJKU/user-interaction-gender-bias-IR). Gendered variations of the queries were addded by us.
@@ -25,7 +24,6 @@ The queries are contained in the file `SRB > data > retrieval_queries.jsonl`. Th
 * `N (non-gendered)` - Non-gendered (original) query
 * `P (prototypical)` - Prototypical query variation (required for the ComSRB metrics)
 * `CP (counter-prototypical)` - Counter-prototypical query variation (required for the ComSRB metrics)
-
 
 3. **Gender-specific words:**
 The file `wordlist_genderspecific.txt` contains the list of 32 gender-representative words per gender used in the RepSRB metrics. It is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR).
