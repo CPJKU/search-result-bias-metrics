@@ -14,7 +14,7 @@ To run the code in this repository, you'll need the following:
 
 1. **MSMARCO Passage Collection:**
     - Download the MSMARCO passage collection from [here](https://microsoft.github.io/msmarco/).
-    - In the "Passage Retrieval" section, find the file named "Collection(10/26/2018)"
+    - In the section `Passage Retrieval`, find the file named `Collection(10/26/2018)`
     - The file is approximately 3GB in size.
     - Save the downloaded .tsv file in the folder `SRB > MSMARCO`.
 
