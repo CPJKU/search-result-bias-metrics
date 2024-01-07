@@ -6,8 +6,7 @@ This repository contains all the code and data necessary to reproduce the result
 
 To run the code in this repository, you'll need the following:
 
-- Python 3.8
-- Dependencies: numpy, pandas, jupyter, sentence-transformers
+- Python 3.8 and the packages: numpy, pandas, jupyter, sentence-transformers
 - Additionally, you'll need to install Pyserini. Follow the installation instructions provided in the Github repository: https://github.com/castorini/pyserini/blob/master/docs/installation.md
 
 ## Data
