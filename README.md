@@ -34,7 +34,7 @@ The file `SRB > RepSRB > resources > wordlist_genderspecific.txt` contains the l
 
 The scripts in the folder `SRB` can be used to reproduce the results from our main expirements. Run `main.py` to retrieve the results from the MSMARCO collection for the queries and evaluate them using the ComSRB metrics. Further the file prepares the data necessary for calculating the RepSRB metrics.
 
-The subfolder `RepSRB` contains the scripts and resources necessary to evaluate the search results using the RepSRB metrics. The code in the notebook `GenderBiasIR.ipynb` is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR) and adapted for the experiments of this study.
+The subfolder `RepSRB` contains the scripts and resources necessary to evaluate the search results using the RepSRB metrics. The code in the notebook `GenderBiasIR.ipynb` is taken from Rekabsaz et al. [2] (https://github.com/navid-rekabsaz/GenderBias_IR) and adapted to produce results that are comparable with those of the ComSRB method.
 
 ### Search Engine Experiments
 
